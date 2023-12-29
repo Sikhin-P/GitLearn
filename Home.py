@@ -11,7 +11,8 @@ class Person:
         self.name = name
 
     def print_details(self):
-        print(f'The name is: {self.name} and the age is: {self.age}')
+        print(f'The name is : {self.name}')
+        print(f'The age is  {self.age}')
 
 
 def let_us_conflict(age, name):
